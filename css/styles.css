@@ -4,6 +4,9 @@
   --description-text-color: #757575;
   --primary-font-family: 'Roboto', sans-serif;
   --accent-color: #2196f3;
+  --button-hover-color: #188ce8;
+  --section-background-color:#2f303a;
+  --secondary-background-color: #F5F4FA;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -52,7 +55,7 @@ li {
 }
 /* ========Hero========  */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--section-background-color);
   color: var(--primary-color);
   font-weight: 900;
   font-size: 44px;
@@ -72,7 +75,7 @@ li {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;
+  background-color: var(--button-hover-color);
 }
 /* ========Особенности======== */
 .datails-list {
@@ -103,7 +106,7 @@ li {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color:#F5F4FA;;
+  background-color:var(--secondary-background-color);
 }
 .team-list {
   font-weight: 500;
@@ -119,8 +122,9 @@ li {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
+/* ========Footer======== */
 .footer {
-  background: #2f303a;
+  background: var(--section-background-color);
 }
 .footer-logo {
   font-family: Raleway;
@@ -146,7 +150,7 @@ li {
 }
 /* ========Portfolio button======== */
 .portfolio-button {
-  background-color: #F5F4FA;
+  background-color:var(--secondary-background-color);
   font-family: var(--primary-font-family);
  font-weight: 500;
 font-size: 16px;
@@ -158,4 +162,4 @@ letter-spacing: 0.03em;
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--primary-color);
-background-color: #2196F3;
+background-color: var(--accent-color);
