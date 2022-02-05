@@ -107,20 +107,17 @@ li {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .team-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .team-list-description {
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
@@ -167,7 +164,8 @@ li {
   background-color: var(--accent-color);
 }
 .portfolio-title {
-  font-weight: 18px;
+  font-weight: bold;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
