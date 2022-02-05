@@ -1,12 +1,12 @@
 :root {
-  --primary-color:#ffffff;
+  --primary-color: #ffffff;
   --title-text-color: #212121;
   --description-text-color: #757575;
   --primary-font-family: 'Roboto', sans-serif;
   --accent-color: #2196f3;
   --button-hover-color: #188ce8;
-  --section-background-color:#2f303a;
-  --secondary-background-color: #F5F4FA;
+  --section-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -100,13 +100,15 @@ li {
   letter-spacing: 0.03em;
 }
 /* ========Team section======== */
+.team-section {
+  background-color: var(--secondary-background-color);
+}
 .team {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color:var(--secondary-background-color);
 }
 .team-list {
   font-weight: 500;
@@ -150,16 +152,28 @@ li {
 }
 /* ========Portfolio button======== */
 .portfolio-button {
-  background-color:var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
   font-family: var(--primary-font-family);
- font-weight: 500;
-font-size: 16px;
-line-height: 1,62;
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--primary-color);
-background-color: var(--accent-color);
+  background-color: var(--accent-color);
+}
+.portfolio-title {
+  font-weight: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-title > p {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--description-text-color);
+}
