@@ -10,7 +10,7 @@
 }
 body {
   font-family: Roboto, sans-serif;
-  color: #212121;
+  color: var(--title-text-color);
 }
 li {
   list-style-type: none;
