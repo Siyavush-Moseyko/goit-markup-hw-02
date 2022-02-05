@@ -1,0 +1,161 @@
+:root {
+  --primary-color:#ffffff;
+  --title-text-color: #212121;
+  --description-text-color: #757575;
+  --primary-font-family: 'Roboto', sans-serif;
+  --accent-color: #2196f3;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+li {
+  list-style-type: none;
+}
+/* ========Header========  */
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+  text-decoration: none;
+
+  letter-spacing: 0.03em;
+}
+.nav-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.active {
+  color: var(--accent-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.contact-list {
+  color: var(--description-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-list:hover,
+.contact-list:focus {
+  color: var(--accent-color);
+}
+/* ========Hero========  */
+.hero {
+  background-color: #2f303a;
+  color: var(--primary-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+/* ========Особенности======== */
+.datails-list {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.datails-list-desсription {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--description-text-color);
+}
+/* ========Work example======== */
+.work-list {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ========Team section======== */
+.team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color:#F5F4FA;;
+}
+.team-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-list-description {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--description-text-color);
+}
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.adress {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-style: normal;
+}
+.footer-contact-list {
+  color: var(--description-text-color);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+/* ========Portfolio button======== */
+.portfolio-button {
+  background-color: #F5F4FA;
+  font-family: var(--primary-font-family);
+ font-weight: 500;
+font-size: 16px;
+line-height: 1,62;
+text-align: center;
+letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--primary-color);
+background-color: #2196F3;
