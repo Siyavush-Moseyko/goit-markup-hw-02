@@ -23,8 +23,10 @@ body {
   line-height: 1.19;
   color: var(--title-text-color);
   text-decoration: none;
-
   letter-spacing: 0.03em;
+}
+.logo-color {
+  color: var(--accent-color);
 }
 .nav-link {
   color: var(--title-text-color);
