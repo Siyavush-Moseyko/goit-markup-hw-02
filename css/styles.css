@@ -163,7 +163,7 @@ li {
   color: var(--primary-color);
   background-color: var(--accent-color);
 }
-.portfolio-title {
+.portfolio-title h2 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
