@@ -100,7 +100,7 @@ li {
   letter-spacing: 0.03em;
 }
 /* ========Team section======== */
-.team-section {
+.team {
   background-color: var(--secondary-background-color);
 }
 .team > h2 {
