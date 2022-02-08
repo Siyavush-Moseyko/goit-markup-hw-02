@@ -80,6 +80,7 @@ address {
 }
 /* ========Особенности======== */
 .datails-list {
+  font-size: inherit;
   color: var(--title-text-color);
   line-height: 1.14;
   text-transform: uppercase;
