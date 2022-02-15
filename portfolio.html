@@ -14,30 +14,40 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a class="logo link" href="">Web<span class="logo-header">Studio</span></a>
-      <nav>
-        <ul class="list nav-link">
-          <li><a class="header-link link" href="./index.html">Студия</a></li>
-          <li><a class="header-link link active" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="header-link link" href="">Контакты</a></li>
+    <header class="header">
+      <div class="header-container">
+        <nav class="navigation">
+          <a class="logo link" href="">Web<span class="logo-header">Studio</span></a>
+          <ul class="list nav-link">
+            <li class="item"><a class="header-link link" href="./index.html">Студия</a></li>
+            <li class="item">
+              <a class="header-link link active" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="header-link link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="header-contact list">
+          <li class="item">
+            <a class="header-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="header-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li><a class="header-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="header-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
         <h1 hidden>Портфолио</h1>
-        <ul class="list">
-          <li><button class="portfolio-button" type="button">Все</button></li>
-          <li><button class="portfolio-button" type="button">Веб-сайты</button></li>
-          <li><button class="portfolio-button" type="button">Приложения</button></li>
-          <li><button class="portfolio-button" type="button">Дизайн</button></li>
-          <li><button class="portfolio-button" type="button">Маркетинг</button></li>
-        </ul>
+        <div>
+          <ul class="list">
+            <li><button class="portfolio-button" type="button">Все</button></li>
+            <li><button class="portfolio-button" type="button">Веб-сайты</button></li>
+            <li><button class="portfolio-button" type="button">Приложения</button></li>
+            <li><button class="portfolio-button" type="button">Дизайн</button></li>
+            <li><button class="portfolio-button" type="button">Маркетинг</button></li>
+          </ul>
+        </div>
         <ul class="list">
           <li>
             <a class="link" href="" target="_blank">
