@@ -219,7 +219,15 @@ img {
   color: var(--primary-color);
 }
 .logo-link {
-  margin-bottom: 30px;
+  display: flex;
+  margin-bottom: 20px;
+  padding-top: 60px;
+}
+.address-list {
+  margin-bottom: 10px;
+}
+.address-list:nth-child(3) {
+  padding-bottom: 60px;
 }
 .address-link {
   color: var(--footer-color-link);
